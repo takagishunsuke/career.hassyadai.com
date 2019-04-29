@@ -245,3 +245,48 @@
   content:"★★★★★";
   color: #ccc;
 }
+
+
+.rate-title {
+    padding: 5px;
+    margin-top: 1em;
+    font-weight: 700;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.dfont {
+    font-family: "Quicksand","Avenir","Arial","BIZ UDGothic",YuGothic,"Yu Gothic","Hiragino Sans","ヒラギノ角ゴシック","メイリオ",Meiryo,sans-serif;
+}
+
+
+#toc_container .toc_title, #footer_menu .raised, .pagination a, .pagination span, #reply-title:before, .entry-content blockquote:before, .main-c-before li:before, .main-c-b:before {
+    color: #069dcb;
+}
+
+.rate-title:before {
+    content: "\f02e";
+    padding-right: 5px;
+}
+.has-fa-before:before, .has-fa-after:after {
+    font-family: FontAwesome;
+}
+
+
+.rate-box {
+    max-width: 580px;
+    margin: 0 auto 1em;
+    font-size: 17px;
+}
+
+.rate-box {
+    margin-bottom: 1em;
+    font-size: 15px;
+    border: solid 2px #e6e6e6;
+}
+
+
+.rate-box .rateline.end-rate {
+    background: #e8f4ff;
+}
+
