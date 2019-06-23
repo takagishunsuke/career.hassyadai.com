@@ -607,7 +607,7 @@ div.yyi-rinker-contents ul.yyi-rinker-links li a {
     font-size: .9em;
     width: 100%;
     height: 30px;
-    line-height: 30px;
+    line-height: 270%;
     padding: 0 18px;
 }
 
@@ -811,4 +811,86 @@ div.yyi-rinker-contents ul.yyi-rinker-links li a {
 
 div.yyi-rinker-contents a {
     border: none;
+}
+
+
+
+
+
+
+.main section {
+  flex: 1;
+}
+
+.main-nav, .main {
+  display: -webkit-flex;
+  display: flex;
+}
+.main-nav li:first-child {
+  margin-right: auto;
+}
+.main-nav a {
+  margin: 10px;
+  border-radius: 5px;
+  background: #60B99A;
+  color: #fff;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+.main-nav .logo {
+  background: #4584b1;
+}
+
+/* Main contents */
+.main section {
+
+
+  margin: 1%;
+  border-radius: 5px;
+  background: #FFFFFF;
+  padding: 15px;
+}
+
+.main h3 {
+  color: #000000;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.main h4 {
+  font-weight: 700;
+}
+.main p {
+  margin-top: 10px;
+}
+
+/* Mobile */
+@media screen and (max-width: 700px) {
+	.main {
+		-webkit-flex-direction: column;
+    flex-direction: column;
+	}
+}
+
+.col-1 , .col-2 , .col-3, .col-4 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border: solid 3px #000000;
+  
+}
+
+.user {
+   padding: 0.25em 0.5em;/*上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: transparent;/*背景透明に*/
+  border-left: solid 5px #7db4e6;/*左線*/
+}
+
+
+
+a.anchor{
+    display: block;
+    padding-top: 70px;
+    margin-top: -70px;
 }
